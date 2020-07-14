@@ -153,7 +153,7 @@ def main(argv=sys.argv):
                 print('\n\n')
                 print(args)
                 print('\n\n')
-                # subprocess.check_call(args, close_fds=True)
+                subprocess.check_call(args, close_fds=True)
                 sys.stdout.flush()
                 sys.stderr.flush()
                 log.info('Completed phase %s' % phase)
