@@ -79,7 +79,10 @@ def exit(lock, statuscode=0):
 
 
 def main(argv=sys.argv):
+    print(argv)
     argv = ['/etc/.rackspace_heat/bin/os-refresh-config']
+    print(argv)
+    exit(0)
     parser = argparse.ArgumentParser(
         description="""Runs through all of the phases to ensure
         configuration is applied and enabled on a machine. Will exit with
