@@ -150,7 +150,9 @@ def main(argv=sys.argv):
             try:
                 log.info('Starting phase %s' % phase)
                 log.debug('Running %s' % args)
-                print('\n\n' + args + '\n\n')
+                print('\n\n')
+                print(args)
+                print('\n\n')
                 subprocess.check_call(args, close_fds=True)
                 sys.stdout.flush()
                 sys.stderr.flush()
