@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/etc/.rackspace_heat/bin/python
 # Copyright 2013 Hewlett-Packard Development Company, L.P.
 # All Rights Reserved.
 #
